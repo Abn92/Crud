@@ -1,0 +1,12 @@
+Executar script antes de tudo.
+
+
+create schema crud_mv
+
+ use crud_mv;
+ CREATE TABLE COLABORADORES(
+   id int not null primary key auto_increment,
+   nome varchar(40),
+   cpf char(11),
+   alimento varchar(30)
+ );
